@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://i68.tinypic.com/nvqu6b.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 2px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{
+     max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1{
+        font-size: 36px;
+      }
+      li {
+        display:block;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="http://tinypic.com?ref=nvt9x5" target="_blank"><img src="http://i64.tinypic.com/nvt9x5.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+    <h1>Ata's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Pictures</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>Passion</h2>
+  <p>Passion is a magnificent combination of emotion, spirit and attitude. Money and fame cannot turn you into a passionate designer. However, if you become famous due to your passionate designing, fame may help your passion grow even stronger, but only if you believe your fame reflects the success of your mission as a designer.</p>
+  <button>Like</button></article>
+  <article>
+  <h2>Who is a designer</h2>
+  <p>A designer is a person who designs. More formally, a designer is an agent that "specifies the structural properties of a design object". In practice, anyone who creates tangible or intangible objects, products, processes, laws, games, graphics, services, and experiences is referred to as a designer..</p>
+  <button>Like</button></article>
+  <article>
+  <h2>What type of design</h2>
+  <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing mark up. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating mark up then they are also expected to be up to date with web accessibility guidelines.</p>
+<button>Like</button></article>
+<script>
+$("button").on("click", function() {
+  alert("clicked!")
+});
+</script>
+</body>
